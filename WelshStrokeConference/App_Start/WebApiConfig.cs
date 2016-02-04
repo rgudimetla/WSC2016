@@ -7,6 +7,7 @@ namespace WelshStrokeConference
 {
     public static class WebApiConfig
     {
+        // api config changes
         public static void Register(HttpConfiguration config)
         {
             config.Routes.MapHttpRoute(
